@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('Cookies', 'Eggless jaggery shortbread recipe',
+    'https://upload.wikimedia.org/wikipedia/commons/1/14/Eggless-jaggery-shortbread-recipe.jpg'),
+    new Recipe('Cookies', 'Eggless jaggery shortbread recipe',
     'https://upload.wikimedia.org/wikipedia/commons/1/14/Eggless-jaggery-shortbread-recipe.jpg')
   ];
 
